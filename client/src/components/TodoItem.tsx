@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button, Checkbox, Divider, Grid, Icon, Image } from 'semantic-ui-react';
 
 export default function TodoItem({todos,onTodoDelete, onEditButtonClick,onTodoCheck}:any) {

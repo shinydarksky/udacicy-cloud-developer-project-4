@@ -9,7 +9,7 @@ import {
   TodoUpdate,
   CreateTodoResp,
   UploadUrl
-} from '../types/Todo.d';
+} from '../types/Todo';
 
 async function axRequest<ReqData, RespData>(
   idToken: string,
